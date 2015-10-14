@@ -1,0 +1,27 @@
+{
+	"name"			: "jb-components"
+	, "version"		: "0.0.1"
+	, "main"		: "src/jb-components"
+	, "dependencies": {
+		"angular"				: ">=1.4.0"
+		, "angular-mocks"		: ">=1.4.0"
+		, "jb-api-wrapper"		: "0.4.x"
+	}
+	, "ignore"		: [
+		"tests"
+		, "README.md"
+		, "LICENSE"
+	]
+	, "license"		: "MIT"
+	, "authors"		: [
+		{ 
+			"name"			: "Felix Steiner"
+			, "email"		: "felix@joinbox.com"
+			, "homepage"	: "http://joinbox.com" 
+		}
+	]
+	, "repository"	: {
+		"type"		: "git"
+		, "url"		: "git://github.com/joinbox/jb-backoffice-notification.git"
+	}
+}
